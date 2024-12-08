@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 35s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('../img/New Menu Price/Artboard 9.png');
+    }
+    33.333333%{
+        background-image: url('../img/New Menu Price/Artboard 9.png');
+    }
+    33.333334%{
+        background-image: url('../img/New Menu Price/Artboard 13.png');
+    }
+    66.666667%{
+        background-image: url('../img/New Menu Price/Artboard 13.png');
+    }
+    66.666668%{
+        background-image: url('../img/New Menu Price/Artboard 14.png');
+    }
+    100%{
+        background-image: url('../img/New Menu Price/Artboard 14.png');
+    }
+}

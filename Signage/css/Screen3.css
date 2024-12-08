@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 42s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('../img/Screen-3/Screen-2/Detox_Screen.jpg');
+    }
+    19.6%{
+        background-image: url('../img/Screen-3/Detox_Screen.jpg');
+    }
+    19.600001%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Thursday.jpg');
+    }
+    39.2%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Thursday.jpg');
+    }
+    39.200001%{
+        background-image: url('../img/Screen-3/NonVeg_Combo.jpg');
+    }
+	49.0%{
+        background-image: url('../img/Screen-3/NonVeg_Combo.jpg');
+    }
+    49.000001%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_02.jpg');
+    }
+    58.8%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_02.jpg');
+    }
+    58.800001%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_03.jpg');
+    }
+	64.7%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_03.jpg');
+    }
+    64.700001%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_04.jpg');
+    }
+    70.6%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_04.jpg');
+    }
+    70.600001%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_05.jpg');
+    }
+	76.5%{
+        background-image: url('../img/Screen-3/Naturally_Fit_Product_Screen_05.jpg');
+    }
+	76.500001%{
+        background-image: url('../img/Screen-3/Brand_Screen_1.jpg');
+    }
+	82.4%{
+        background-image: url('../img/Screen-3/Brand_Screen_1.jpg');
+    }
+    82.400001%{
+        background-image: url('../img/Screen-3/Brand_Screen_3.jpg');
+    }
+    88.2%{
+        background-image: url('../img/Screen-3/Brand_Screen_3.jpg');
+    }
+    88.200001%{
+        background-image: url('../img/Screen-3/Brand_Screen_5.jpg');
+    }
+	94.1%{
+        background-image: url('../img/Screen-3/Brand_Screen_5.jpg');
+    }
+    94.100001%{
+        background-image: url('../img/Screen-3/Veg_Combo.jpg');
+    }
+    100%{
+        background-image: url('../img/Screen-3/Veg_Combo.jpg');
+    }
+}

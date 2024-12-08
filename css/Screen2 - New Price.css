@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 55s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('../img/New Menu Price/Artboard 7.png');
+    }
+    20%{
+        background-image: url('../img/New Menu Price/Artboard 7.png');
+    }
+    20.000001%{
+        background-image: url('../img/New Menu Price/Artboard 8.png');
+    }
+    40%{
+        background-image: url('../img/New Menu Price/Artboard 8.png');
+    }
+    40.000001%{
+        background-image: url('../img/New Menu Price/Artboard 10.png');
+    }
+    60%{
+        background-image: url('../img/New Menu Price/Artboard 10.png');
+    }
+	60.000001%{
+        background-image: url('../img/New Menu Price/Artboard 11.png');
+    }
+    80%{
+        background-image: url('../img/New Menu Price/Artboard 11.png');
+    }
+	80.000001%{
+        background-image: url('../img/New Menu Price/Artboard 12.png');
+    }
+    100%{
+        background-image: url('../img/New Menu Price/Artboard 12.png');
+    }
+}

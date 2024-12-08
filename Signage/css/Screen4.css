@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 141s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('../img/Brand_Screen_1.jpg');
+    }
+    2.1%{
+        background-image: url('../img/Brand_Screen_1.jpg');
+    }
+    2.100001%{
+        background-image: url('../img/Brand_Screen_3.jpg');
+    }
+    4.3%{
+        background-image: url('../img/Brand_Screen_3.jpg');
+    }
+    4.300001%{
+        background-image: url('../img/Brand_Screen_5.jpg');
+    }
+	6.4%{
+        background-image: url('../img/Brand_Screen_5.jpg');
+    }
+    6.400001%{
+        background-image: url('../img/Drunken_Monkey_Ad.mp4');
+    }
+    47.5%{
+        background-image: url('../img/Drunken_Monkey_Ad.mp4');
+    }
+    47.500001%{
+        background-image: url('../img/Product_Ad.mp4');
+    }
+	70.2%{
+        background-image: url('../img/Product_Ad.mp4');
+    }
+    70.200001%{
+        background-image: url('../img/Smoothie_Bowl_Animation.mp4');
+    }
+    100%{
+        background-image: url('../img/Smoothie_Bowl_Animation.mp4');
+    }
+}
